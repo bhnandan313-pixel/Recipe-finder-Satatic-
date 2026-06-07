@@ -1,6 +1,7 @@
 .custom-navbar{
     background-color:#4d4843;
-    margin-left:auto ;
+    height: 60px;
+    padding-bottom: 10px;
     
 }
 .background-accent{
@@ -31,6 +32,7 @@
     background-color: transparent;
     width: 90px;
     height: 50px;
+    object-fit: contain;
 }
 .main-heading{
     font-family: "Pacifico";
@@ -98,7 +100,8 @@
     text-align: left;
 }
 .slider{
-    width: 350px;
+    width:500px;
+
     margin:auto;
     overflow: hidden;
    
@@ -112,7 +115,7 @@
 }
 .fit{
     object-fit: cover;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 700px;
     overflow: hidden;
 }
