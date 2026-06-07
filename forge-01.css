@@ -1,7 +1,7 @@
 .custom-navbar{
     background-color:#4d4843;
-    height: 60px;
-    padding-bottom: 10px;
+    padding-bottom:0px;
+    
     
 }
 .background-accent{
@@ -48,6 +48,11 @@
     color:#7C2D12;
     margin: 20px;
 
+}
+.navbar-collapse{
+    background-color: #4d4843;
+    margin: 0px;
+    padding: 20px;
 }
 .card-img{
     width:286px;
@@ -98,6 +103,12 @@
 
 .modals{
     text-align: left;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    padding: 20px;
 }
 .slider{
     width:600px;
