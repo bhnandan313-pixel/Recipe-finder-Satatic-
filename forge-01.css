@@ -1,24 +1,49 @@
 .custom-navbar{
-    background-color:antiquewhite;
+    background-color:#4d4843;
+    margin-left:auto ;
+    
+}
+.background-accent{
+    background-color: #FFF8E7;
+    background-size:cover;
+    height:auto;
 }
 .background-herosection {
     background-image: url("https://media.istockphoto.com/id/1307553426/photo/food-ingredients-for-cooking-italian-pasta.jpg?s=170667a&w=0&k=20&c=wv82sCcmN820YMtcV4XVls50idzNaBuP1s6a5htA674=");
     background-size: cover;
     height: 45vh;
     width:100vw;
+    position: relative;
+
+}
+.glass-card {
+    background: rgba(184, 109, 23, 0.15);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    border-radius: 20px;
+    padding: 40px;
+}
+.img-png{
+    background-color: transparent;
+    width: 90px;
+    height: 50px;
 }
 .main-heading{
-    font-family: "Roboto";
-    font-size: 35px;
+    font-family: "Pacifico";
+    font-size: 50px;
     padding-top: 85px;
     padding-left:42px;
-
-    color:#ffffff
+    padding-bottom:30px;
+    color:#FFF8E7
 }
 .title-1{
-    font-family: "Roboto";
+    font-family: "Poppins SemiBold";
     font-size: 35px;
-    color:black;
+    color:#7C2D12;
     margin: 20px;
 
 }
@@ -31,7 +56,7 @@
     border-bottom-right-radius: 0px;
 }
 .recipe-card{
-    border-radious:20px;
+    border-radius:20px;
     border-color: black;
     border-style: solid;
     border-width: 0.5px;
@@ -43,7 +68,7 @@
     
 }
 .recipe-card2{
-    border-radious:20px;
+    border-radius:20px;
     border-color: black;
     border-style: solid;
     border-width: 0.5px;
@@ -62,16 +87,13 @@
     padding-right: 20px;
 }
 .know-recipe-button{
-    border-color: rgb(104, 204, 104);
-    border-width: 2px;
-    border-style: solid;
-    background-color:rgb(104, 204, 104);
-    border-radius: 7px;
-    padding: 4px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-     padding-left: px;
-    padding-right: px;
+    background:#D97706;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding: 7px;
 }
+
 .modals{
     text-align: left;
 }
